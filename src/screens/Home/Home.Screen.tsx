@@ -1,10 +1,11 @@
 import React, { type FC } from 'react';
-import { Text, View } from 'react-native';
+import { View } from 'react-native';
+import BarChart from '@/components/BarChart';
 
-const HomeScreen = (): FC => {
+const HomeScreen: FC = () => {
   return (
     <View>
-      <Text>Hello</Text>
+      <BarChart />
     </View>
   );
 };

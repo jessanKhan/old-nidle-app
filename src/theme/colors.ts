@@ -21,13 +21,15 @@ const palette = {
   color17: '#e0e0e0d9',
   color18: '#007DFF',
   color19: '#EA4AFA',
-  color20: '#FF9800'
+  color20: '#FF9800',
+  color21: '#4C4C4C',
+  color22: '#BEBEBE'
 };
 
 export const colors = {
   // base colors
   primary: palette.color1,
-  buttonBg: palette.color6,
+  buttonBg: palette.color21,
   secondary: palette.color2,
   accent: palette.color3,
   // colors
@@ -48,5 +50,6 @@ export const colors = {
   foreground: palette.color14,
   inputBack: palette.color15,
   iconEye: palette.color16,
-  extraLightGray: palette.color17
+  extraLightGray: palette.color17,
+  buttonColorGray: palette.color21
 };

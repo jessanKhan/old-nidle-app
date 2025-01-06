@@ -19,8 +19,7 @@ const Styles = ScaledSheet.create({
     alignItems: 'center',
     backgroundColor: colors.white,
     borderRadius: verticalScale(30),
-    height: verticalScale(50),
-    alignSelf: 'center'
+    height: verticalScale(50)
   }
 });
 

@@ -16,13 +16,18 @@ interface ICustomTextInputProps {
 
 const CustomButtonItem: React.FC<ICustomTextInputProps> = ({
   txt,
-  type = EButtonType.GreenBtn,
+  type = EButtonType.GrayBtn,
   pressFunction
 }) => (
   <TouchableOpacity
-    style={type === EButtonType.GreenBtn ? Styles.buttonGreen : Styles.buttonWhite}
+    style={type === EButtonType.GrayBtn ? Styles.buttonGray : Styles.buttonWhite}
     onPress={pressFunction}>
-    <TextItem txt={txt} color={type === EButtonType.GreenBtn ? colors.white : colors.black} />
+    <TextItem
+      txt={txt}
+      color={type === EButtonType.GrayBtn ? colors.white : colors.black}
+      fontSize={16}
+      fontWeight={'700'}
+    />
   </TouchableOpacity>
 );
 
